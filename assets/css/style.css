@@ -156,3 +156,55 @@ footer {
     text-align: center;
     color: #fff;
 }
+
+@media only screen and (max-width: 980px) {
+    section {
+        width: auto;
+        margin: 2%;
+        padding: 12px;
+        overflow: hidden;
+}
+
+    .photobox{
+        display: inline-block;
+        width: 33%;
+        margin: 1%;
+
+    }
+ 
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        width: auto;
+        margin: 2%;
+        padding: 12px;
+        overflow: hidden;
+}
+
+    .photobox{
+        display: inline-block;
+        width: 33%;
+        margin: 1%;
+
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+
+    section {
+        width: auto;
+        margin: 2%;
+        padding: 12px;
+        overflow: hidden;
+}
+    .photobox{
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2%;
+        margin-top: 2%;
+
+    }
+}
