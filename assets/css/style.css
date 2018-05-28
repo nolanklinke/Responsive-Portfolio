@@ -209,9 +209,12 @@ footer {
 
 @media only screen and (max-width: 640px) {
     .header {
+        position: static;
         padding: 0;
         overflow: hidden;
+        width: 100%;
         text-align: center;
+        display: inline-block;
     }
     .header a.myname {
         border-radius: 0;
@@ -221,11 +224,11 @@ footer {
         width: 100%;
     }
 
-    .header-right {
-        display: block;
-        width: 100%;
+    /* Could not for the life of me figure out how to get this div centered responsively*/
+   .header-right {
+        display: inline-block;
         text-align: center;
-        
+        margin-right: 27%;
     }
 
         
